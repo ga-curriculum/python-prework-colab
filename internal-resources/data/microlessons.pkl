@@ -1,0 +1,52 @@
+import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/static/v2/pkl/template.pkl" as Template
+
+// Add microlessons here, in the order they should be delivered
+
+introductionToPython = new Template.Microlesson {
+  friendlyName = "Introduction to Python"
+  dirName = "introduction-to-python"
+  type = "Content"
+  videoUrl = ""
+}
+
+dataTypesInPython = new Template.Microlesson {
+  friendlyName = "Data Types in Python"
+  dirName = "data-types-in-python"
+  type = "Content"
+  videoUrl = ""
+}
+
+manipulatingVariablesInPython = new Template.Microlesson {
+  friendlyName = "Manipulating Variables in Python"
+  dirName = "manipulating-variables-in-python"
+  type = "Content"
+  videoUrl = ""
+}
+
+controlFlowInPython = new Template.Microlesson {
+  friendlyName = "Control Flow in Python"
+  dirName = "control-flow-in-python"
+  type = "Content"
+  videoUrl = ""
+}
+
+functionsInPython = new Template.Microlesson {
+  friendlyName = "Functions in Python"
+  dirName = "functions-in-python"
+  type = "Content"
+  videoUrl = ""
+}
+
+objectsAndClasses = new Template.Microlesson {
+  friendlyName = "Objects and Classes"
+  dirName = "objects-and-classes"
+  type = "Content"
+  videoUrl = ""
+}
+
+errorHandlingInPython = new Template.Microlesson {
+  friendlyName = "Error Handling in Python"
+  dirName = "error-handling-in-python"
+  type = "Content"
+  videoUrl = ""
+}
