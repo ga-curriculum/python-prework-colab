@@ -1,11 +1,11 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">Python Pre-Work</span>
+  <span class="headline">Python Prework</span>
 </h1>
 
 ## About
 
-Welcome to our Python Pre-Work! In just over three hours, this mini course will provide you with a solid foundation in Python programming. You'll learn essential concepts such as data types, control flow, functions, object-oriented programming, and error handling. Designed for beginners, this program is your first step towards learning Python and preparing for more advanced coding later. Dive in and start your Python journey here!
+Welcome to our Python Prework! In just over three hours, this mini course will provide you with a solid foundation in Python programming. You'll learn essential concepts such as data types, control flow, functions, object-oriented programming, and error handling. Designed for beginners, this program is your first step towards learning Python and preparing for more advanced coding later. Dive in and start your Python journey here!
 
 ## Content
 
@@ -18,7 +18,9 @@ Welcome to our Python Pre-Work! In just over three hours, this mini course will 
 | [Functions in Python](./functions-in-python/README.md)                           | 45 min      | Write and run functions in Python, including returning values, to make code more concise.                                             |
 | [Objects and Classes](./objects-and-classes/README.md)                           | 30 min      | Create objects from classes using instantiation and pass instance methods and variables with the "self" argument.                     |
 | [Error Handling in Python](./error-handling-in-python/README.md)                 | 25 min      | Troubleshoot common Python errors, use try-except for error handling, and explain the use of the raise keyword.                       |
-| **Total content**                                                                | 3 hr 25 min |                                                                                                                                       |
+| [Python Practice No. 1](./practice-1/README.md)                 | 35 min      | Practice python with Codewars challenges.                       |
+| [Python Practice No. 2](./practice-2/README.md)                 | 35 min      | Practice python with Codewars challenges.                       |
+| **Total content**                                                                | 4 hr 35 min |                                                                                                                                       |
 
 ## References
 
