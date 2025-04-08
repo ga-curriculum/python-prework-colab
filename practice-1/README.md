@@ -5,7 +5,7 @@
 
 ## Python Practice No. 1 ( 35 min )
 
-*author: [Riley Dallas](https://generalassemb.ly/instructors/riley-dallas/8760) | web developer and data scientist*
+_author: [Riley Dallas](https://generalassemb.ly/instructors/riley-dallas/8760) | web developer and data scientist_
 
 ----
 <br>
