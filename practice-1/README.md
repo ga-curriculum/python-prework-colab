@@ -64,14 +64,20 @@ Let’s dive in!
 
 You’ll want to compute results between the two numbers based on this operation:
 
-`basic_op('+', 4, 7) # Output: 11`
+```python
+basic_op('+', 4, 7) 
+Output: 11
 
-`basic_op('-', 15, 18) # Output: -3`
+basic_op('-', 15, 18) 
+Output: -3
 
-`basic_op('*', 5, 5) # Output: 25`
+basic_op('*', 5, 5) 
+Output: 25
 
-`basic_op('/', 49, 7) # Output: 7`
-
+basic_op('/', 49, 7)
+Output: 7
+```
+    
 **Hint**: Create a conditional statement (`if`/`elif`/`else`) that looks at the operation.
 
 ## Solution: Basic Mathematical Operations Challenge
@@ -84,9 +90,13 @@ You’ll want to compute results between the two numbers based on this operation
 
 **Directions**: Create a function that adds up all of the positive numbers in a list.
 
-`positive_sum([0, 1, 2, 3, -1]) # Output: 6`
+```python
+positive_sum([0, 1, 2, 3, -1])
+Output: 6
 
-`positive_sum([1, -3, 1, 0, 1]) # Output: 3`
+positive_sum([1, -3, 1, 0, 1])
+Output: 3
+```
 
 **Hint**: You’ll need to `for` loop the list of numbers and run a conditional statement (`if`/`elif`/`else`) for each number.
 
@@ -100,9 +110,13 @@ You’ll want to compute results between the two numbers based on this operation
 
 **Directions**: Write a function that repeats a string n number of times (where n is a positive integer).
 
-`repeatStr(6, "I") # Output: IIIIII`
+```python
+repeatStr(6, "I")
+Output: IIIIII
 
-`repeatStr(3, "Hello") # Output: HelloHelloHello`
+repeatStr(3, "Hello")
+Output: HelloHelloHello
+```
 
 **Hint**: You’ll need to `for` loop using the `range()` function. Start with an empty string and concatenate each time through the loop.
 
@@ -116,9 +130,13 @@ You’ll want to compute results between the two numbers based on this operation
 
 **Directions**: You’ll want to create two functions. Each will take a list of numbers, and your job is to return the largest or smallest number in said list, depending on which function is being called.
 
-`maximum([4,6,2,1,9,63,-134,566]) # Output: 566`
+```python
+maximum([4,6,2,1,9,63,-134,566])
+Output: 566
 
-`minimum([-52, 56, 30, 29, -110]) # Output: -110`
+minimum([-52, 56, 30, 29, -110])
+Output: -110
+```
 
 **Hint**: There are Python functions that can do this for you. If you don’t know what they are, this is a great opportunity to try out [Stack Overflow](https://stackoverflow.com/).
 
@@ -132,9 +150,10 @@ You’ll want to compute results between the two numbers based on this operation
 
 **Directions**: You’re given a list of strings. One of those strings is “needle.” Your job is to find the index of where “needle” is in the list.
 
-`find_needle(['hay', 'hay', 'hay', 'moreJunk', 'needle'])`
-
-`# Output: "Found the needle at position 4."`
+```python
+find_needle(['hay', 'hay', 'hay', 'moreJunk', 'needle'])
+Output: "Found the needle at position 4."
+```
 
 **Hint**: Google the `enumerate()` function. You may find that it’s a cool thing to learn and use here!
 
