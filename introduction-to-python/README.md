@@ -52,13 +52,9 @@ Python is focused on being "friendly," meaning it simplifies syntax and makes us
 
 Let’s practice!
 
-We can start writing Python code immediately using [Repl.it](https://replit.com/), an interactive development environment that lets us test out our program right in the browser.
+We can start writing Python code immediately using [Google Colab](https://colab.research.google.com/), Colab, or "Colaboratory", allows you to write and execute Python in your browser, with zero configuration required, access to GPUs free of charge, and easy sharing.
 
-### What is a Repl?
-
-A Repl, short for Read-Evaluate-Print-Loop, is an interactive programming environment that takes single user inputs, evaluates them, and returns the result to the user. It's a great way to write and test code in real time. [Repl.it](https://replit.com/) is a popular online platform that provides this environment for many programming languages, including Python. This allows you to write, run, and share code directly from your web browser without needing to install any software on your computer.
-
-> Note: If [Repl.it](https://replit.com/) asks you to log in, go ahead and create a free account if you haven't already.
+> Note: If [Colab](https://colab.research.google.com/) asks you to log in, go ahead and create a free Google account if you haven't already.
 
 ## Say "Hello"
 
