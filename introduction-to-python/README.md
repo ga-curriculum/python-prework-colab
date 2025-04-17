@@ -56,31 +56,43 @@ We can start writing Python code immediately using [Google Colab](https://colab.
 
 > Note: If [Colab](https://colab.research.google.com/) asks you to log in, go ahead and create a free Google account if you haven't already.
 
+Here is a [short video](https://www.youtube.com/watch?v=inN8seMm7UI) giving an overview of Colab.
+
+Colab uses what are called *notebooks*. Notebooks are a popular format for writing Python in the data field. Notebooks are interactive documents that allow us to write and run code, explain your thought process, and show results all in one place. Notebooks are denote with the `.ipynb` file extension.
+
 ## Say "Hello"
 
 Let’s get started!
 
 Navigate to your new [Colab](https://colab.research.google.com/) account.
 
-Click on the `+ Create Repl` button near the top of the screen.
+If this is your first time using Colab, you will see a `Welcome to Colab` Notebook.
 
-![Create a new Repl](./assets/create_repl.png)
+![Colab Welcome](./assets/colab_new_window.png)
 
-<br>
+That has a good introduction, but we are going to start with a blank notebook. 
 
-Search for the template called "python" and select it from the list.
+Click on the blue `+ New notebook` button at the bottom of the dialog window.
 
-![Select python template](./assets/select_python_template.png)
+![Open a new notebook](./assets/colab_create_new_notebook.png)
 
-<br>
-
-Name your Repl something special like _"My_First_Python_Repl"_ and click `Create Repl`.
-
-![Name your REpl](./assets/name_repl.png)
 
 <br>
 
-You'll write your code in the `main.py` file tab created for you by Repl.
+
+![Untitled](./assets/colab_new_untitled_notebook.png)
+
+You can click on the box that says `Untitled1.ipynb` (Colab defaults to giving new notebooks the title Untitled followed by a Number) and change the title to whatever you want, for example, _"First_Python_Notebook"_
+
+
+![Renamed Notebook](./assets/colab_renamed_notebook.png)
+
+
+
+
+<br>
+
+If you click into the first cell, you can enter Python code.
 
 Lets type a simple message:
 
@@ -88,15 +100,28 @@ Lets type a simple message:
 print("Hello")
 ```
 
-To run your code click the `Run` button.
+To execute the code cell you can either hit the play button
 
-![Click the run button](./assets/select_run.png)
+![colab_play_button](./assets/colab_press_play_to_execute_cell.png)
+
+or you can use your keyboard and hit the Shift+Enter keys.
+
+It's recommended to use the keyboard shortcuts. It can be tricky at first, but you'll be more efficient utilizing the shortcut!
+
+<!-- To run your code click the `Run` button.
+
+![Click the run button](./assets/select_run.png) -->
 
 <br>
 
-After you click "Run" the word `"Hello"` should appear on the right side in the `>_ Console` tab.
+After you execute the cell, the word "Hello" should appear right below the cell.
 
-![Output "Hello"](./assets/output_hello.png)
+![Output "Hello" colab](./assets/colab_print_hello.png)
+
+
+<!-- After you click "Run" the word `"Hello"` should appear on the right side in the `>_ Console` tab.
+
+![Output "Hello"](./assets/output_hello.png) -->
 
 <br>
 
@@ -104,7 +129,7 @@ Look at that — you ran some code!
 
 In computer terms, "Print" means "display on the screen," so our code displays "Hello!" in the output screen.
 
-Don’t close this [Colab](https://colab.research.google.com/) window. We’ll be using it throughout this lesson.
+Don’t close this [Colab](https://colab.research.google.com/) window. We’ll be using it throughout this lesson. However, if you do close it, Colab will save the notebook to your Google Drive.
 
 ## You’re Coding!
 
@@ -130,7 +155,7 @@ print("Python rocks.")
 
 So, your [Colab](https://colab.research.google.com/) window will look like this:
 
-![Python rocks output](./assets/output_python_rocks.png)
+![Python rocks output](./assets/colab_python_rocks_output.png)
 
 <br>
 
@@ -244,7 +269,7 @@ In Python, you make a comment using the `#` symbol.
 print("Hello")
 ```
 
-Try this out in your **Repl**. Hit the `Run` arrow to see what happens!
+Try this out in **Colab**. Execute the cell to see what happens!
 
 ### No Comments? No Good!
 
