@@ -60,7 +60,7 @@ We can start writing Python code immediately using [Google Colab](https://colab.
 
 Let’s get started!
 
-Navigate to your new [Repl.it](https://replit.com/) account.
+Navigate to your new [Colab](https://colab.research.google.com/) account.
 
 Click on the `+ Create Repl` button near the top of the screen.
 
@@ -104,7 +104,7 @@ Look at that — you ran some code!
 
 In computer terms, "Print" means "display on the screen," so our code displays "Hello!" in the output screen.
 
-Don’t close this [Repl.it](https://replit.com/) window. We’ll be using it throughout this lesson.
+Don’t close this [Colab](https://colab.research.google.com/) window. We’ll be using it throughout this lesson.
 
 ## You’re Coding!
 
@@ -112,7 +112,7 @@ Awesome job! Now, you can print `Hello` to the screen.
 
 Whenever you want your Python program to print something, you use the `print` command. If you want to `print` words, you’ll need to put them in quotes, like we did with "Hello".
 
-Let’s try something else. In your [Repl.it](https://replit.com/), change what’s printed to instead be "Python rocks."
+Let’s try something else. In your [Colab](https://colab.research.google.com/), change what’s printed to instead be "Python rocks."
 
 Your output should look like this:
 
@@ -128,7 +128,7 @@ Here’s the code you should have:
 print("Python rocks.")
 ```
 
-So, your [Repl.it](https://replit.com/) window will look like this:
+So, your [Colab](https://colab.research.google.com/) window will look like this:
 
 ![Python rocks output](./assets/output_python_rocks.png)
 
@@ -155,18 +155,6 @@ Now, let’s learn a bit more about the Python language.
 <br>
 
 In fact, Guido still plays a central role in the language’s development and direction. The Python community awarded him the title "Benevolent Dictator for Life."
-
-## Let’s Back Up: Python 2 vs. Python 3
-
-As Python developers, the first question we need to ask ourselves when working on a project is: "Which version of Python is this?" The answer could be Python 2 or Python 3. Python 2 code doesn’t work in Python 3 programs, and vice versa, so it’s an important consideration!
-
-Officially, new projects going forward are supposed to be built in Python 3. However, you’ll still see examples of Python 2 around. Why?
-
-- Python 2 was used for more than a decade and support for it was only recently dropped, so it remains prevalent. Many programs are still written in Python 2.
-
-- Python 2 comes pre-installed by default on Mac computers. However, we can easily install Python 3, so Mac users aren’t limited to Python 2!
-
-Python 3 offers a lot of advantages and is the officially supported version of Python, which is why we’ll be using it throughout this course.
 
 ## Concise and Friendly
 
@@ -266,7 +254,7 @@ Comments are absolutely critical to include in your code.
 
 - Right now, we’re only printing words to the screen. Eventually, however, your code will be very complex. It’s important to leave comments in your code that explain it. This way, any other developer — or future you — can look at your code and know exactly what each line does. This is vital for working as a team!
 
-Practice adding comments in your [Repl.it](https://replit.com/). You can put comments between lines of code and add new lines between code to keep it organized, like so:
+Practice adding comments in your [Colab](https://colab.research.google.com/). You can put comments between lines of code and add new lines between code to keep it organized, like so:
 
 ```python
 # Display "Hello" on the screen.
@@ -284,9 +272,8 @@ We’ve learned a lot in this lesson!
 Remember that:
 
 - Python is a popular, free, and user-friendly programming language.
-- You will likely see Python 2 in legacy code, but Python 3 is the present and future of the language.
 - We can write Python to print to the screen and add comments that Python will ignore, like so:
   - `# this is a comment`
   - `print("Hello!")`
 
-Check out and bookmark this link for creating new Python 3 repls in [Repl.it](https://replit.com/new/python3).
+Check out and bookmark this link for creating new Python 3 repls in [Colab](https://colab.research.google.com/).
