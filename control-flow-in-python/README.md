@@ -24,21 +24,7 @@ By the end of this lesson, you'll be able to:
 
 <a href="https://generalassembly.wistia.com/medias/8r655u7t7r?wvideo=8r655u7t7r"><img src="https://embed-ssl.wistia.com/deliveries/b396d6bd102c2a580fff2ecfdb69703e153928bf.jpg?image_crop_resized=900x506&image_play_button=true&image_play_button_size=2x&image_play_button_color=222222e0" alt="control-flow" width="450" height="253" /></a>
 
-_Transcript_
-
-_Are you stuck in a rut? If you're doing the same thing over and over again, you may need to ask, "Are you stuck in a rut?" If you’re doing the same thing over and over again, you may need to ask, "Are you stuck in a rut?" If you’re doing the same thing over and over again, you may need to ask ..._
-
-_This was me before I learned about control flow. Control flow is what keeps our programs from doing the same thing every single time. It tells our programs what to do based on different conditions. Let's take a look at control flow in action._
-
-_First, we look out the window. Then, we ask ourselves, "Is it raining?" If no, then we'll go outside and enjoy the weather. If yes, it is raining, then we have to stay inside, watch more Netflix, and check back in an hour._
-
-_This flowchart highlights two key players of program flow: conditionals and loops. In the flowchart, the question "Is it raining?" is an expression that evaluates to either true or false. True: It is raining. False: It is not._
-
-_The left side of our flowchart — "It is not raining, then go outside" — is called a conditional. The right side of our flowchart is a loop. Yes, it is raining, so we'll watch Netflix for another hour and check again later. We'll do this until we can finally answer, "No, it's not raining."_
-
-_Even though it's one of the critical constructs of programming, control flow doesn't have to be complicated. In fact, when broken down into its component parts, we might even say it's simple._
-
-_Can I go outside yet? Please?_
+<br>
 
 ## How Do Computers Know Which Decisions to Make?
 
@@ -63,7 +49,7 @@ The real power of comparisons lies in their use in **conditional statements** to
 
 You do this all the time in real life. When you're getting ready in the morning, you decide what to wear based on whether a condition is true or false (e.g., it's going to be higher than 60º; it's going to be lower than 60º).
 
-![Weather Conditional](./assets/weather-conditional.png)
+<img src="./assets/weather-conditional.png" width="400" />
 
 <br>
 
@@ -73,15 +59,17 @@ So how do we write conditional statements in Python? We use the `if` statement.
 
 Every `if` statement must begin the line with `if`, followed by **any expression**, followed by a **colon**, then one or more **indented lines of code**:
 
-![Parts of a Conditional](./assets/if-statement-syntax.png)
+<img src="./assets/if-statement-syntax.png" width="650" />
+
+<br>
 
 We evaluate the indented lines of code only if the expression (converted to a `bool`) is `True`. You can think of this as, "If the expression is `True`, then evaluate the indented code."
 
 **Pro Tip:** According to [PEP 8](https://www.python.org/dev/peps/pep-0008/), lines should be indented using four spaces.
 
-## Try it out in Repl.it!
+## Try it out in Colab!
 
-Create a new [Repl.it](https://replit.com/new/python3) for this lesson called `Control_Flow_In_Python`. As you go through this lesson, try out the examples in your Repl to see how they work.
+Keep going in your existing colab notebook, or make a new one for this lesson. As you go through this lesson, try out the examples in your Colab to see how they work.
 
 ## A Weather-Related Example
 
@@ -96,7 +84,7 @@ if chance_of_rain > 0.5:        # if <expression>:
 
 This code is evaluated line by line, from top to bottom. If `chance_of_rain > 0.5` evaluates to `True`, then the indented lines will run. If the statement is `False`, we skip the indented lines of code.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 chance_of_rain = 0.8  # Change this value to test different outcomes
@@ -123,7 +111,7 @@ For example:
 | `or`     | Evaluates to `true` if one of the statements is true | `x < 10 or x > 20 `      |
 | `not`    | Evaluates to `true` if the result is false           | `not(x > 10 and x < 20)` |
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 # Change these values to test different outcomes
@@ -139,15 +127,7 @@ if temperature < 60 and raining:
 
 <a href="https://generalassembly.wistia.com/medias/e2o7ey38w6?wvideo=e2o7ey38w6"><img src="https://embed-ssl.wistia.com/deliveries/bf1fcd09e2f1c7a0f2ca2ceb9e546afdcceaa72c.jpg?image_crop_resized=900x506&image_play_button=true&image_play_button_size=2x&image_play_button_color=222222e0" alt="JSC_U2_201_1" width="450" height="253" /></a>
 
-_Transcript_
-
-_Comparison and logical operators allow us to create what we call conditions — a circumstance that we define. For example, weather reports are filled with them. "Chance of rain is greater than 50 percent" is a condition._
-
-_This sign is a comparison operator. We use conditions to create conditional statements, which are statements that allow us to determine a course of action based on a condition._
-
-_We use these all the time in the real world. Going back to the weather example, I could say, "If the chance of rain is greater than 50 percent, then I'll wear a raincoat. If the chance of rain is less than 50 percent, then I'll wear a light cardigan." This is an example of an if statement._
-
-_We can also combine conditional statements to express them in one go. For example, "If the chance of rain is greater than 50 percent, then I'll wear a raincoat. Otherwise, I'll wear a cardigan." These kinds of statements are called if-else statements. Else represents the otherwise part of a conditional statement by letting us specify the code that should be executed if the condition we laid out is false._
+<br>
 
 ## The else Condition
 
@@ -157,7 +137,7 @@ For example, we said: "If the chance of rain is greater than 50 percent, then I'
 
 This is called an `if-else` statement.
 
-![Syntax of an if-else Statement](./assets/if-else-statement-syntax.png)
+<img src="./assets/if-else-statement-syntax.png" width="650" />
 
 <br>
 
@@ -174,7 +154,7 @@ else:
 
 If `chance_of_rain > 0.5` evaluates to `True`, then the first indented line will run. If the statement is `False`, we skip the first indented line and evaluate the second line of indented code.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 chance_of_rain = 0.4  # Change this value to test different outcomes
@@ -194,7 +174,7 @@ Conditionals don't stop there, my friend. If you need a conditional to check for
 
 The first conditional that turns out to be `True` is executed, and the rest of the chain is skipped entirely.
 
-![Syntax of an elif statement](./assets/elif-statement-syntax.png)
+<img src="./assets/elif-statement-syntax.png" width="650" />
 
 <br>
 
@@ -204,7 +184,7 @@ The first conditional that turns out to be `True` is executed, and the rest of t
 
 Recall that in an `elif` chain, once the computer finds a `True` condition, it skips the rest of the chain.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 inspection_score = 85  # Change this value to test different outcomes
@@ -245,7 +225,7 @@ We'll cover two kinds of loops: `for` loops and `while` loops. They both get the
 
 The `for` loop always requires the following structure:
 
-![Syntax of a for Loop](./assets/for-loop-syntax.png)
+<img src="./assets/for-loop-syntax.png" width="650" />
 
 <br>
 
@@ -282,7 +262,7 @@ Once the `for` loop is done, we see that `total` is `15` (`0` + `1` + `2` + `3` 
 
 **Pro Tip:** Python's built-in `sum()` function accomplishes the same objective as the `for` loop above.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 total = 0
@@ -335,7 +315,7 @@ What if we wanted to sum a list of 100 integers? That would be an even bigger ha
 
 `range(N)` creates a generator of integers from `0` up to but not including `N`. So, to sum the first five integers, we must set `N` to `6`.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 total = 0
@@ -360,7 +340,7 @@ Let's meet the simpler, cleaner cousin of the `for` loop: the `while` loop.
 
 A `while` loop is generally used in Python when we don't know when the looping will stop or how many iterations the loop will require.
 
-![Syntax of a while loop](./assets/while-loop-syntax.png)
+<img src="./assets/while-loop-syntax.png" width="650" />
 
 <br>
 
@@ -372,7 +352,7 @@ Let's make while statements even more fun.
 
 Meet `input()`, another exciting built-in Python function. It prompts the user for a text input and then returns that input as a string.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 name = input('What is your name?')
@@ -427,7 +407,7 @@ Line 3: We simply print the current value of `counter`.
 Line 4: We then increment the value of `counter`. Note: `counter += 1` is short for `counter = counter + 1`.
 Once `counter` is equal to `10`, the loop will break, as `10` is not less than `10`.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 counter = 0
