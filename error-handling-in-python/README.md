@@ -27,9 +27,9 @@ There are many different types of errors and exceptions in Python. The good news
 
 Throughout the lesson, we'll cover a few of the most common errors, what each means, and how to troubleshoot each.
 
-## Try it out in Repl.it!
+## Try it out in Colab!
 
-Create a new [Repl.it](https://replit.com/new/python3) for this lesson called `Error_Handling_In_Python`. As you go through this lesson, try out the examples in your Repl to see how they work.
+Either keep working in your existing notebook or create a new one. As you go through this lesson, try out the examples in your colab notebook to see how they work.
 
 ## How Do I Know There is an Error?
 
@@ -81,7 +81,7 @@ A `SyntaxError` indicates that something you wrote doesn't follow the proper syn
 
 For example, if we failed to place a colon after an `if` statement condition, we’d see something like this:
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```bash
 if hello
@@ -114,7 +114,7 @@ if hello:
 
 `TypeError` occurs when we try to do manipulate data types in a way that python does not permit. Like adding a string and an integer or trying to get the length of an integer.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 12.0 + 'twelve'
@@ -150,7 +150,7 @@ However, we can get around this by writing a function that loops through a strin
 
 Then, we convert all the characters that are not corrupted to floats and add them to a list. If the character is corrupted, we add `None`. We used logic to get around the error!
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 str_to_float = ['2.1', '2.3', '7,5', '$12.12', '8.9', '5%', '33.1']
@@ -239,7 +239,7 @@ Exceptions let us circumvent errors in python. `Raise` lets us throw errors that
 
 The `raise` keyword can be used to alert a user of a specific error type. As an example, we can write a function that will raise an error if `4` is entered but will otherwise print the number.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 def no_four(number):
