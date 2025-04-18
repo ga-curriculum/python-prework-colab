@@ -26,7 +26,7 @@ An `object` is anything that can be 1) assigned to a variable and 2) passed to a
 
 In this lesson, you’re going to learn how to define the "blueprint" of an object, known as a `class`. Then, we’ll look at how to create an object based on that blueprint through a process called `instantiation`.
 
-![Blueprint](./assets/blueprint.png)
+<img src="./assets/blueprint.png" width="500" />
 
 <br>
 
@@ -38,7 +38,7 @@ Our car blueprint, for example, would tell us to include things such as wheels, 
 
 These attributes would be included in all cars. We’ll get into the specifics of how they’re included a little bit later.
 
-![Car Blueprint](./assets/car-blueprint.png)
+<img src="./assets/car-blueprint.png" width="450" />
 
 <br>
 
@@ -48,29 +48,19 @@ Defining a class is similar to defining a function — only, instead of `def`, w
 
 Inside the class we can have **attributes** (pieces of information or variables) and **methods** (actions).
 
-![Class Syntax](./assets/class-syntax.png)
+<img src="./assets/class-syntax.png" width="650" />
 
 <br>
 
-## Try it out in Repl.it!
+## Try it out in Colab!
 
-Create a new [Repl.it](https://replit.com/new/python3) for this lesson called `Objects_And_Classes`. As you go through this lesson, try out the examples in your Repl to see how they work.
+Either keep going in your exiating colab notebook or make a new one. As you go through this lesson, try out the examples in your colab notebook to see how they work.
 
 ## Food for Thought
 
 <a href="https://generalassembly.wistia.com/medias/4b2vpn91qv?wvideo=4b2vpn91qv"><img src="https://embed-ssl.wistia.com/deliveries/7c3ac52eddcd17e80035bfae88047b4b81afcc41.jpg?image_crop_resized=900x506&image_play_button=true&image_play_button_size=2x&image_play_button_color=222222e0" alt="inheritance" width="450" height="253" /></a>
 
-_Transcript_
-
-_What do you think of when you think of a sandwich? You take some bread and then add some meat, vegetables, and cheese in between it, and bam — sandwich._
-
-_It’s a simple blueprint that can create all sorts of things — the hamburger, a veggie wrap, and even this monstrosity of cereal and frosting in between two chicken breasts._
-
-_All of these follow the basic format and are technically considered sandwiches. In Python, we use classes to set this same kind of template for our objects._
-
-_We can then use properties to define what’s in them and actions to tell them what to do._
-
-_Why is this so good?_
+<br>
 
 ## But First: Instantiation!
 
@@ -102,7 +92,7 @@ class ClassName():
 
 Let’s start building out our `Car` class and include the beginnings of the `**init**()` method:
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 class Car(object):
@@ -126,7 +116,7 @@ Let’s try to instantiate a sedan object.
 
 To create a sedan, we use the `Car` class and pass in the specific details of the sedan we want to create.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 class Car(object):
@@ -166,7 +156,7 @@ Let’s try this with another class: buildings.
 
 In our `Building()` class, we have attributes for the number of square feet, rooms, and bathrooms. We also have two methods — one to print the attributes out in `describe_building()` and one to calculate the price and return it based on the attributes in `get_price()`.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 class Building():
@@ -223,7 +213,7 @@ When we define the `House()` class, we can add characteristics (such as the numb
 
 We don’t need to rewrite these methods in the child class, so our code is more concise.
 
-![Inheritance Chart](./assets/inheritance.png)
+<img src="./assets/inheritance.png" width="650" />
 
 <br>
 
@@ -233,7 +223,7 @@ We can also overwrite attributes and methods inherited from the parent class.
 
 Say the formula for the price of a `House()` was different, in general, than the formula for the price of a `Building()`. By redefining the `get_price()` method for the `House()` class, we can change the behavior from its parent class.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 class House(Building):
@@ -259,7 +249,7 @@ One last note about classes: you can define _class_ variables that belong to the
 
 It’s up to you to decide which is more appropriate for what you’re doing — but FYI, instance variables are used more frequently than class variables.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 class Traveler(object):
@@ -282,7 +272,7 @@ The `__init__()` method initializes the attributes of a particular class. Every 
 
 Classes and objects can be more than one generation deep, as in our "building, house, townhouse" example.
 
-![Inheritance Chart](./assets/inheritance.png)
+<img src="./assets/inheritance.png" width="650" />
 
 <br>
 
