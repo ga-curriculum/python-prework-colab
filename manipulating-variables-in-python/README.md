@@ -39,9 +39,9 @@ print(teacher_pet)
 'hamster'
 ```
 
-## Try it out in Repl.it!
+## Try it out in Colab!
 
-Create a new [Repl.it](https://replit.com/new/python3) for this lesson called `Manipulating_Variables_In_Python`. As you go through this lesson, try out the examples in your Repl to see how they work.
+Either keep working in your existing colab notebook or make anew one to keep practicing. As you go through this lesson, try out the examples in your notebook to see how they work.
 
 ## How Do We Create a Variable in Python?
 
@@ -49,7 +49,7 @@ In Python, you don't have to issue a command to create a variable. You just need
 
 Once you decide what to call your variable (e.g., `teacher_pet`), enter that name followed by a single equals sign (`=`) and the data type.
 
-![Assigning a variable in Python](./assets/assigning-variable.png)
+<img src="./assets/assigning-variable.png" width="650" />
 
 <br>
 
@@ -59,7 +59,7 @@ For example:
 
 - `first_name = 'Sally'` means we're pointing the variable name `first_name` to a string with a value of `'Sally'`.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 num_students = 14
@@ -88,7 +88,7 @@ In the first command, Python "sees" the number `3` and assigns that value to the
 
 Now, the value of `4` will be assigned to the `num_cookies` variable from here on out until we assign it another value.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 num_cookies = 3
@@ -105,7 +105,7 @@ Similarly, we can use `num_cookies` 400 times throughout a program, and it will 
 
 This makes code a lot simpler to read and write, reduces error (especially when the variables start referencing more complex calculations), and saves a lot of time in creating code.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 num_cookies = 3
@@ -144,7 +144,7 @@ As you can see, this isn't necessarily helpful — and it can get cumbersome. Wh
 
 Python's **complex** data types help us solve this problem.
 
-![Python's complex data types](./assets/data-type-list-3.png)
+<img src="./assets/data-type-list-3.png" width="250" />
 
 <br>
 
@@ -165,7 +165,7 @@ animal_types = ['bird', 'giraffe', 'whale']
 
 Note: It's typical to pluralize the name of a list. For example, `cars`, `animal_names`, and `cities`. This indicates that the name refers to more than one piece of data.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 animal_types = ['bird', 'giraffe', 'whale']
@@ -176,31 +176,9 @@ print(animal_types)
 
 <a href="https://generalassembly.wistia.com/medias/sqbg7v3aob?wvideo=sqbg7v3aob"><img src="https://embed-ssl.wistia.com/deliveries/cff2408e84b594561c9e79f514e3204ed95c23f5.jpg?image_crop_resized=900x506&image_play_button=true&image_play_button_size=2x&image_play_button_color=222222e0" alt="Cool-things-to-do-with-lists_1" width="450" height="253" /></a>
 
-_Transcript_
+<br>
 
-_Welcome to "Cool Things to Do With Lists in Python!" I’m your host Walker Junior, and I’m so glad you’re here today._
-
-_Let’s consider: We have a list called "animal types" that contains three strings — a bird, a giraffe, and a whale. The first cool thing we’re going to do is ask Python to tell us how long our list is. We do this by using a built-in function, length(), represented by the letters "l-e-n."_
-
-_"Hey Python? How many items are in our animal list?"_
-
-_Cool Thing No. 2!_
-
-_We can access any item within a list using indexing. This is represented by square brackets. Indexing starts with "0," so the first item in any list is the 0th item. So, if we asked Python, "Hey, what is the first variable in our list?", it would return "Bird."_
-
-_Cool!_
-
-_What about the third item in our animal list? Ah, the third item is "whale."_
-
-_Cool Thing No. 3!_
-
-_We can ask, "Hey Python, you know that list of animals we made? Well, replace the first element with ‘cat.’" So, if we ask Python to show us our new list using the print function. It will return our updated list with the new 0th item._
-
-_And this concludes our list of cool things to do with lists in Python._
-
-_We hope you enjoyed it as much as we did._
-
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 animal_types = ['bird', 'giraffe', 'whale']
@@ -239,7 +217,7 @@ animal_types.pop()
 
 `animal_types` now contains the original three elements: `['cat', 'giraffe', 'whale']`.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 animal_types = ['cat', 'giraffe', 'whale']
@@ -274,7 +252,7 @@ days_of_week = ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturda
 
 (_Tuples_. _Tuples_. _Tuples_. Fun, right?)
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 days_of_week = ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday')
@@ -302,7 +280,7 @@ The particular order inside the set doesn't matter, as each place was either vis
 
 To tell Python we're writing a set, we use curly braces `{ }`.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 my_places_traveled = {'Riyadh', 'Jeddah', 'Bahrain'}
@@ -325,7 +303,7 @@ To check whether an element is in a set, we use the `in` operator.
 True
 ```
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 my_places_traveled = {'Riyadh', 'Jeddah', 'Bahrain'}
@@ -363,7 +341,7 @@ This is a container of what we call **key-value pairs**. Thus, if we asked Pytho
 
 **Pro Tip:** To create an empty set, use the built-in `set()` function (e.g., `untasty_fruits = set()`). Why? Because in Python, curly braces are used for both sets and dictionaries. Empty braces `{}` indicate an empty dictionary.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 book_authors = {'Moby Dick': 'Herman Melville', 'The Lorax': 'Dr. Seuss', 'The Hobbit': 'J.R.R. Tolkien'}
@@ -391,7 +369,7 @@ book_authors['The Lorax']
 
 ... which would return `Dr. Seuss`.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 book_authors = {'Moby Dick': 'Herman Melville', 'The Lorax': 'Dr. Seuss', 'The Hobbit': 'J.R.R. Tolkien'}
