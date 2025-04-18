@@ -277,7 +277,7 @@ print(total)  # Should print 15
 
 Let's look at one more example of a for loop.
 
-Copy the following code into **Repl.it** and click the "Run" button to see the code in action before reading through the explanation provided below.
+Copy the following code into **Colab** then hit Shift+Enter to execute the code.
 
 ```python
 primes = [2, 3, 5]             # Line 1
