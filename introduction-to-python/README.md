@@ -32,7 +32,9 @@ Python snakes are found in tropical areas. Python programs are found all over!
 
 If there’s something you want to accomplish with code, Python can most likely make it happen.
 
-![Python in Space](./assets/python_in_space.png)
+<img src="./assets/python_in_space.png" width="400" />
+
+<br>
 
 ## Python Fast Facts
 
@@ -44,7 +46,9 @@ Python is:
 
 Check out the [interactive version](https://pypl.github.io/PYPL.html) of the worldwide popularity chart shown below.
 
-![Python Popularity Data](./assets/python_popularity.png)
+<img src="./assets/python_popularity.png" width="500" />
+
+<br>
 
 ## Want to Try It Out?
 
@@ -68,7 +72,9 @@ Navigate to your new [Colab](https://colab.research.google.com/) account.
 
 If this is your first time using Colab, you will see a `Welcome to Colab` Notebook.
 
-![Colab Welcome](./assets/colab_new_window.png)
+<img src="./assets/colab_new_window.png" width="600" />
+
+<br>
 
 That has a good introduction, but we are going to start with a blank notebook. 
 
@@ -76,19 +82,13 @@ Click on the blue `+ New notebook` button at the bottom of the dialog window.
 
 ![Open a new notebook](./assets/colab_create_new_notebook.png)
 
-
 <br>
-
 
 ![Untitled](./assets/colab_new_untitled_notebook.png)
 
 You can click on the box that says `Untitled1.ipynb` (Colab defaults to giving new notebooks the title Untitled followed by a Number) and change the title to whatever you want, for example, _"First_Python_Notebook"_
 
-
 ![Renamed Notebook](./assets/colab_renamed_notebook.png)
-
-
-
 
 <br>
 
@@ -215,7 +215,9 @@ As you can see, Python is much more straightforward!
 
 How do we write more complex programs — things like video games, web browsers, or robots? Can you imagine having to do it all from scratch? How would you even begin?
 
-![Robot being programmed](./assets/robot_programing_confusion.png)
+<img src="./assets/robot_programing_confusion.png" width="400" />
+
+<br>
 
 Python development has always been open source, meaning anyone can contribute. Thousands of developers around the world have added useful pieces of programs that anyone else can use.
 
