@@ -27,7 +27,7 @@ Using functions in your code is like delegating your most repetitive task to a r
 
 Whenever you find yourself performing the same task over and over again in your code, you can save a lot of time and energy by writing a function to do that task for you. Yay, robots! 🤖
 
-![Function Robot](./assets/function-robot.png)
+<img src="./assets/function-robot.png" width="350" />
 
 <br>
 
@@ -43,7 +43,7 @@ This is just the beginning of the function. It’s like assembling all of the ge
 
 We’ll also need to include some code to indicate the purpose of the function.
 
-![Function Syntax](./assets/function-snytax.png)
+<img src="./assets/function-snytax.png" width="650" />
 
 <br>
 
@@ -60,7 +60,7 @@ def my_printer(color):
 
 <br>
 
-![Photo of 3D Printer](./assets/3d-printer.png)
+<img src="./assets/3d-printer.png" width="350" />
 
 <br>
 
@@ -106,7 +106,7 @@ print(my_result)
 # 5
 ```
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 def my_function(var1):
@@ -128,7 +128,7 @@ So far, our functions have only taken one argument (aka, one color of plastic), 
 
 - When `calling` (aka, using) the function, assign values to all arguments.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 def my_printer(color, shape):
@@ -165,7 +165,7 @@ def get_average(number1, number2, number3):
     return average
 ```
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 def greet(name):
@@ -184,7 +184,9 @@ As the building blocks of all large, complex programs and processes, functions a
 
 The generic syntax of a function is:
 
-![Function Syntax](./assets/function-snytax.png)
+<img src="./assets/function-snytax.png" width="650" />
+
+<br>
 
 You can pass multiple arguments into functions and even nest functions within other functions to supercharge the power of your program while keeping your code nice and clean.
 
