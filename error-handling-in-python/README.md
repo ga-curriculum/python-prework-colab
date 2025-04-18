@@ -56,7 +56,7 @@ Always read error messages carefully to determine the cause of the error.
 
 One basic type of error is a `NameError`. A `NameError` is thrown when the variable that’s referred to doesn’t exist in the _namespace_ — in other words, when we try to access a variable that we haven't defined yet.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```bash
 hello
