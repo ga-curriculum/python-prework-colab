@@ -29,7 +29,7 @@ Clearly, we need a way of telling the computer how to read the sequence. That’
 
 Oh, and don’t worry, data types are pretty similar across programming languages, so you can just apply the same base knowledge of data types in Python to whatever language you’re using.
 
-![Binary Code](./assets/binary.png)
+<img src="./assets/binary.png" width="400" />
 
 <br>
 
@@ -37,15 +37,15 @@ Oh, and don’t worry, data types are pretty similar across programming language
 
 In this lesson, we’ll explore the "primitive data types," which are the first four items in Python’s complete list of built-in data types, shown here:
 
-![Data Types in Python](./assets/data-type-list-1.png)
+<img src="./assets/data-type-list-1.png" width="400" />
 
 <br>
 
 Data types 5–8 are little more complex, so we’ll save those for a later lesson.
 
-## Try it out in Repl.it!
+## Try it out in Colab!
 
-Create a new [Repl.it](https://replit.com/new/python3) for this lesson called `Data_Types_In_Python`. As you go through this lesson, try out the examples in your Repl to see how they work.
+If you still have the notebook open from the introduction, keep on working in it, and if not just open a new one and try out your python.
 
 ## Integers and Floats
 
@@ -57,7 +57,7 @@ Today, we’ll just talk about the two most popular: integers and floats.
 
 Fun fact! In Python, decimal numbers are stored using scientific notation. If you’ve forgotten what that means since you last took a math class, basically larger numbers like `3500.0` are stored as `3.5 x 10^3`. The position of the decimal place "_floats_" backward and forward as the exponent changes, hence the name.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 # Let's try defining some integers and floats
@@ -83,7 +83,7 @@ Some of these operators are the familiar ones we’ve all known and loved since 
 | `//`     | Integer division                                                |
 | `%`      | The modulo is used to get the remainder of a division equation. |
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 # Try some arithmetic operations
@@ -106,11 +106,11 @@ Boolean variables have one of two possible values: `True` or `False`. Appropriat
 
 Internally, they are stored as integers: `1` if `True` and `0` if `False`.
 
-![1 and 0 in Python Meaning](./assets/0-1-meaning.png)
+<img src="./assets/0-1-meaning.png" width="400" />
 
 <br>
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 # Define some Boolean values
@@ -135,7 +135,7 @@ For example:
 
 To indicate a string in Python code, simply enclose it with either ‘single’ or "double" quotation marks. If your string contains a single quote, like `diner_name = "Sandy's"`, then enclose it with double quotes, and vice versa.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 # Define some strings
@@ -162,11 +162,11 @@ The other operator that works on strings is the `*`. It does exactly what you mi
 
 For example, `'hello'*3` will give us `"hellohellohello"`!
 
-![Robot saying HelloHelloHello](./assets/hello-robot.png)
+<img src="./assets/hello-robot.png" width="200" />
 
 <br>
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 # Try some string operations
@@ -190,7 +190,7 @@ Escape characters are _not_ a data type, but you’ll still likely see them in s
 
 There will be times when we want Python to print out a good old-fashioned backslash instead of reading it as an escape character. To do so, just write `\\`.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 # Try using escape characters
@@ -207,7 +207,7 @@ Let’s see why.
 
 Say you have a data set that contains the names of pets at a veterinary practice (or are they "patients"?), along with their weights and ages. If there is no record of a pet’s weight, then this would be represented by `none`, not `0`, because Kevin the Chihuahua doesn’t weigh zero pounds — even if he might be close.
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 # Define a variable with None
@@ -247,7 +247,7 @@ Say our data set stores the number `"1"` as a string. To convert it to an intege
 int('1')
 ```
 
-### Try it out in Repl.it!
+### Try it out in Colab!
 
 ```python
 # Try converting data types
